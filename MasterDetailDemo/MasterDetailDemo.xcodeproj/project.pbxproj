@@ -17,6 +17,7 @@
 		D38DDBD21B93736800B81824 /* MasterDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBD11B93736800B81824 /* MasterDetailDemoTests.m */; };
 		D38DDBDE1B93748200B81824 /* someViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBDC1B93748200B81824 /* someViewController.m */; };
 		D38DDBDF1B93748200B81824 /* someViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DDBDD1B93748200B81824 /* someViewController.xib */; };
+		D38DDBE51B937A5900B81824 /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBE41B937A5900B81824 /* HBBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D38DDBDB1B93748200B81824 /* someViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = someViewController.h; sourceTree = "<group>"; };
 		D38DDBDC1B93748200B81824 /* someViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = someViewController.m; sourceTree = "<group>"; };
 		D38DDBDD1B93748200B81824 /* someViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = someViewController.xib; sourceTree = "<group>"; };
+		D38DDBE31B937A5900B81824 /* HBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseViewController.h; sourceTree = "<group>"; };
+		D38DDBE41B937A5900B81824 /* HBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				D38DDBDC1B93748200B81824 /* someViewController.m */,
 				D38DDBDD1B93748200B81824 /* someViewController.xib */,
 				D38DDBB61B93736800B81824 /* AppDelegate.h */,
+				D38DDBE31B937A5900B81824 /* HBBaseViewController.h */,
+				D38DDBE41B937A5900B81824 /* HBBaseViewController.m */,
 				D38DDBB71B93736800B81824 /* AppDelegate.m */,
 				D38DDBB91B93736800B81824 /* MasterViewController.h */,
 				D38DDBBA1B93736800B81824 /* MasterViewController.m */,
@@ -234,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38DDBB81B93736800B81824 /* AppDelegate.m in Sources */,
+				D38DDBE51B937A5900B81824 /* HBBaseViewController.m in Sources */,
 				D38DDBBB1B93736800B81824 /* MasterViewController.m in Sources */,
 				D38DDBB51B93736800B81824 /* main.m in Sources */,
 				D38DDBDE1B93748200B81824 /* someViewController.m in Sources */,
