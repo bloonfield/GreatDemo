@@ -8,6 +8,8 @@
 
 #import "DetailViewController.h"
 
+#import "someViewController.h"
+
 @interface DetailViewController ()
 
 @end
@@ -36,6 +38,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    UIButton* aBtn = [[UIButton alloc] initWithFrame:CGRectMake(120, 120, 30, 20)];
+    [aBtn setBackgroundColor:[UIColor redColor]];
+    [aBtn addTarget:self action:@selector(onABtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:aBtn];
+
+}
+
+- (void)onABtn
+{
+    someViewController* viewController = [[someViewController alloc] init];
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

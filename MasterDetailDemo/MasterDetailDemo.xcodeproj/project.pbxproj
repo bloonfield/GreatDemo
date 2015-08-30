@@ -15,6 +15,8 @@
 		D38DDBC31B93736800B81824 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38DDBC21B93736800B81824 /* Images.xcassets */; };
 		D38DDBC61B93736800B81824 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DDBC41B93736800B81824 /* LaunchScreen.xib */; };
 		D38DDBD21B93736800B81824 /* MasterDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBD11B93736800B81824 /* MasterDetailDemoTests.m */; };
+		D38DDBDE1B93748200B81824 /* someViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBDC1B93748200B81824 /* someViewController.m */; };
+		D38DDBDF1B93748200B81824 /* someViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DDBDD1B93748200B81824 /* someViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		D38DDBCB1B93736800B81824 /* MasterDetailDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasterDetailDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38DDBD01B93736800B81824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D38DDBD11B93736800B81824 /* MasterDetailDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailDemoTests.m; sourceTree = "<group>"; };
+		D38DDBDB1B93748200B81824 /* someViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = someViewController.h; sourceTree = "<group>"; };
+		D38DDBDC1B93748200B81824 /* someViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = someViewController.m; sourceTree = "<group>"; };
+		D38DDBDD1B93748200B81824 /* someViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = someViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,9 @@
 		D38DDBB11B93736800B81824 /* MasterDetailDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D38DDBDB1B93748200B81824 /* someViewController.h */,
+				D38DDBDC1B93748200B81824 /* someViewController.m */,
+				D38DDBDD1B93748200B81824 /* someViewController.xib */,
 				D38DDBB61B93736800B81824 /* AppDelegate.h */,
 				D38DDBB71B93736800B81824 /* AppDelegate.m */,
 				D38DDBB91B93736800B81824 /* MasterViewController.h */,
@@ -206,6 +214,7 @@
 			files = (
 				D38DDBC11B93736800B81824 /* Main.storyboard in Resources */,
 				D38DDBC61B93736800B81824 /* LaunchScreen.xib in Resources */,
+				D38DDBDF1B93748200B81824 /* someViewController.xib in Resources */,
 				D38DDBC31B93736800B81824 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +236,7 @@
 				D38DDBB81B93736800B81824 /* AppDelegate.m in Sources */,
 				D38DDBBB1B93736800B81824 /* MasterViewController.m in Sources */,
 				D38DDBB51B93736800B81824 /* main.m in Sources */,
+				D38DDBDE1B93748200B81824 /* someViewController.m in Sources */,
 				D38DDBBE1B93736800B81824 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
