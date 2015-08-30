@@ -17,6 +17,7 @@
 		D38DDBD21B93736800B81824 /* MasterDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBD11B93736800B81824 /* MasterDetailDemoTests.m */; };
 		D38DDBDE1B93748200B81824 /* someViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBDC1B93748200B81824 /* someViewController.m */; };
 		D38DDBDF1B93748200B81824 /* someViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DDBDD1B93748200B81824 /* someViewController.xib */; };
+		D38DDBEB1B937CA300B81824 /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DDBEA1B937CA300B81824 /* HBBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D38DDBDB1B93748200B81824 /* someViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = someViewController.h; sourceTree = "<group>"; };
 		D38DDBDC1B93748200B81824 /* someViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = someViewController.m; sourceTree = "<group>"; };
 		D38DDBDD1B93748200B81824 /* someViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = someViewController.xib; sourceTree = "<group>"; };
+		D38DDBE91B937CA300B81824 /* HBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseViewController.h; sourceTree = "<group>"; };
+		D38DDBEA1B937CA300B81824 /* HBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				D38DDBB91B93736800B81824 /* MasterViewController.h */,
 				D38DDBBA1B93736800B81824 /* MasterViewController.m */,
 				D38DDBBC1B93736800B81824 /* DetailViewController.h */,
+				D38DDBE91B937CA300B81824 /* HBBaseViewController.h */,
+				D38DDBEA1B937CA300B81824 /* HBBaseViewController.m */,
 				D38DDBBD1B93736800B81824 /* DetailViewController.m */,
 				D38DDBBF1B93736800B81824 /* Main.storyboard */,
 				D38DDBC21B93736800B81824 /* Images.xcassets */,
@@ -234,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38DDBB81B93736800B81824 /* AppDelegate.m in Sources */,
+				D38DDBEB1B937CA300B81824 /* HBBaseViewController.m in Sources */,
 				D38DDBBB1B93736800B81824 /* MasterViewController.m in Sources */,
 				D38DDBB51B93736800B81824 /* main.m in Sources */,
 				D38DDBDE1B93748200B81824 /* someViewController.m in Sources */,
@@ -432,6 +438,7 @@
 				D38DDBD71B93736900B81824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D38DDBD81B93736900B81824 /* Build configuration list for PBXNativeTarget "MasterDetailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +447,7 @@
 				D38DDBDA1B93736900B81824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
