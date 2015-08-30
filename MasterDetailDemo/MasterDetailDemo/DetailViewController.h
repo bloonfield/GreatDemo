@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HBBaseViewController.h"
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : HBBaseViewController
 
 @property (strong, nonatomic) id detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
